@@ -1,0 +1,35 @@
+osc@pop-os:~/Desktop$ mkdir "MOhamed Talaat"
+osc@pop-os:~/Desktop$ cd MOhamed\ Talaat/
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ touch file1.txt file2.txt file3.txt
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ ls
+file1.txt  file2.txt  file3.txt
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ cd ..
+osc@pop-os:~/Desktop/MOhamed Talaat$ touch .hidden_file
+osc@pop-os:~/Desktop/MOhamed Talaat$ ls -a
+.  ..  Documents  .hidden_file
+osc@pop-os:~/Desktop/MOhamed Talaat$ cd Documents/
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ nano file1.txt 
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ cat file1.txt 
+osc linux
+
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ mkdir -
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ cd -
+/home/osc/Desktop/MOhamed Talaat
+osc@pop-os:~/Desktop/MOhamed Talaat$ cd Documents/
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ ls
+-  file1.txt  file2.txt  file3.txt
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents$ cd ./-
+osc@pop-os:~/Desktop/MOhamed Talaat/Documents/-$ cd ..
+osc@pop-os:~/Desktop/MOhamed Talaat$ cp -r Documents My_Docs
+osc@pop-os:~/Desktop/MOhamed Talaat$ ls
+Documents  My_Docs
+osc@pop-os:~/Desktop/MOhamed Talaat$ cat .hidden_file 
+osc@pop-os:~/Desktop/MOhamed Talaat$ mv Documents/file2.txt .
+osc@pop-os:~/Desktop/MOhamed Talaat$ mv Documents/file3.txt .
+osc@pop-os:~/Desktop/MOhamed Talaat$ ls
+Documents  file2.txt  file3.txt  My_Docs
+osc@pop-os:~/Desktop/MOhamed Talaat$ cd ..
+osc@pop-os:~/Desktop$ rm -r "MOhamed Talaat"/
+osc@pop-os:~/Desktop$ ls
+osc@pop-os:~/Desktop$ 
+
