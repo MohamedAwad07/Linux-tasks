@@ -1,0 +1,96 @@
+osc@pop-os:~/Downloads$ cd ..
+osc@pop-os:~$ cd Desktop/
+osc@pop-os:~/Desktop$ unzip Updated-Task-02.zip 
+Archive:  Updated-Task-02.zip
+   creating: Updated-Task-02/
+  inflating: Updated-Task-02/README.txt  
+  inflating: Updated-Task-02/.level-1.tar  
+osc@pop-os:~/Desktop$ cd Updated-Task-02/
+osc@pop-os:~/Desktop/Updated-Task-02$ ls
+README.txt
+osc@pop-os:~/Desktop/Updated-Task-02$ ls -a
+.  ..  .level-1.tar  README.txt
+osc@pop-os:~/Desktop/Updated-Task-02$ cd ~/Desktop/Updated-Task-02/.level-1/
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1$ ls
+level-2  README.txt
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1$ gzip level-2 
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1$ ls
+level-2.gz  README.txt
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1$ tar -xf level-2
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ ls
+level-3
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5$ cd level-3/
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ ls
+
+00aBxtql7r  7PFGHcmfa2  cWRi45wacA  gupiPOsJzC  Kfce3CFjhh  O009zeKkif  RU4rJzjPfg  WLuasYnMvP
+0aba2tPi4R  7sxFwD2jGw  cWZv9iI87X  hb4zKjD5G4  KJBdbwTmzD  O0V7mQCicJ  RWWLnFwGtv  Wm14GdEGcm
+0QYBUNJixX  82aRYKaCZB  cX6YaqFDFY  hBv1LejGKu  kkIu8kVXLo  o6Q2i1NUXc  rwZwqdxHhJ  wpJyCPLODS
+17pfO4tY4m  88exEg2MMo  D5JYr3I592  Hf8ovJhWKI  kOIOppD8hx  OAbH1oFg57  rzSTDqa7oV  wpoGQ7WmSg
+1NBA3mJTQC  8IOqsSAWIo  dBJSXzmpb1  hGCeu2NgZ5  kp1ujuDGKO  OaRp7TV8pe  SaaZymLdoG  WSxUR7IJd8
+1pnvifRmA6  8OLXyd5ai0  Dd9KxIjxSB  HuSBc8QKYi  krWRFtvYDP  ObIefWWqqM  SaQtx8SNld  wZ4LJKpHW6
+22ix6enm8X  8u4f62oAYb  dK320XCmR0  HXq7gqQZ5Z  kT3eEAfVcY  OFx3U24MoP  sf7ajd5INC  x2CDPgz6Jk
+2GsF4Kn1PG  8X1ovlX6ex  DKiaUm3WBb  i4CkeVfT7S  kwmQK5z76U  OHWTswrtBk  skVRxkHK04  x3Nvoy3Ucl
+2IFaRh0Jxc  9CA6eRBprt  Doi1I9Z8TE  iCR4qC97HM  L5DOn3iY18  ojc7SuLzMV  sNrtW0eiZF  x3SkxfEItU
+30msooUqJf  9GqYmpQsAS  dqbKkDKbZl  IE4xWwbydi  L8ZzpZTLz5  orzpz7CBBQ  SqAZPx7CbA  X62Vq1yIyL
+3Ig28f7Xa8  9my7brVWmo  dtLZdglPV3  IiLRIuK1Fi  LeUtklcfmE  Ou1q6zOh5n  SRgPbWeEG6  X6lkChFKsj
+3SSDrwrwmt  9NNnGuH7A1  Dux6sHDdCW  IKeqpTmvmW  LKfMizQQjE  oV3aef60WL  sRhTcN4PIw  XapfbudtZp
+3TpnDd6PaY  9QBLcfEf91  EHm7bcCxj1  ioOe8b7TsJ  lowIuX2RQI  OXZ3OOGJ7O  sVyNLUXzut  xBsGYZHomA
+3wTdqmDig6  a6HPyy5Mz5  epBL6naqQR  iOplykVsBo  LtH4X99Uw3  oZ5HOQe6X0  T0gYx5T5ks  xigSiLU79u
+3XXNloi4gV  A8SqBitLRB  ePj0HMi3nh  ip23ESdwGT  LZ5jebusoa  p194n4sSpi  Tbi1MdwiMX  XkrAGaosYZ
+3YhvETOVcv  aFjSvqXqWE  Eqk382soFH  IygdcTaoYP  M1vV6QxnH1  p3ARvi0q4F  tEgA7tGwxB  xRxKkdCTU8
+4jFmUBgygR  AI8sfDgnhT  eT21MMr22o  iymCtoFUVf  m59pSiQG2p  p6PVEBfSyK  TezFlyJz9o  xYCpOSRLsl
+4vG2fYLy6B  AJtW9NcRLy  eT909HWyck  j3JsNAEsm1  m7lRDpRTUJ  PaOzJn0sJV  TFkiwAHDrG  xYlmccmE5f
+53IaK7n1np  ANRcGwDkvK  ETRyNzIpYk  J3K5BY52dp  MaqkHpS39h  PDJdFxfgvh  Tt0xmDrg4Y  Y0nB0Ep1my
+5H5OLdA8qE  ayHSb1kjNd  ev8BCScTMa  J5feTUwPso  MKQErXMkPE  penDnjNMQc  tZCE2HQg8s  y1IAp2YdZc
+5ME7YKcHsa  b4BF572o41  F5Db7l8s9j  jahdjqT54b  moQuVgMB1f  pH9s3o8foP  uAw4PKT7E0  Ye8R8ZOvJ9
+5tAchjHlmE  b957oPA24t  F9OYJjkGiB  JArjmQWPVq  mRET49bBGR  pI49N7Zoxn  udqz57oeuX  ygasPrK3kG
+5tJnO1Mwzf  Bb0kZiNxDz  fCLOGDR05y  JBDnoFKLcx  mu6c42Y1qo  Pmf5TqkkYg  ufdeX2Dk7C  YgeyHmPrtP
+5VoPA03kvi  BbreWoCXSv  Fdvgo1aqTT  JbMcWq9tku  mwILTjPhCP  pO4Lt5DPrX  v2ME2J4GuF  ysdoXYcYQq
+6AJpxbHYkm  bduLsR7v4K  FeBBLsJEYS  Jc0EEC4sua  mxG418at98  psmL4dk69Y  V64A9vKnYq  YVAPjrh8Up
+6C8RwQ9kGP  bOKXTvk63r  FJsgrBEwbJ  JgVwSWAUsr  mydABLXwyL  pXXxEWcKkz  vkaOISlk2I  zEmK04yIqc
+6hnWZbro0I  BrJvEu79eg  flbjrqIXMS  JlhNaDm4f7  n4d9SlSzcV  q4gh4nODZa  vLWtq7N2aR  ZenzUsQydR
+6JPHCI1K8M  BTf86zJsB3  fn95Z2sG3o  JnOT2WHKbE  n4MCXv5XM2  qFO0JDSF0N  VneCQhwmfv  zet1AFeHNl
+6lie6mPCRe  byVoAmiOqs  FYrh0rmC4q  jpO4wGMT57  N5lXyVotHN  Qh9GBAd3mF  vUbRKbYlKR  zghxQE4JGJ
+6mnK6keHIi  bze36b6xjZ  G9UhKYNLgv  JqAekDHYif  nBoQgGxoGX  QM053Y9Vw1  Vw5Jm3saUP  ZNq1fiVP6F
+6mpTfHgnlX  C5KrlOGYlu  GaMed1WIDN  jrMKucOmtp  NdkrRTZmr9  R0LpA1qK4F  vz1uLzTKjO  zTfi6AwgZQ
+6vigp6VM7d  cDfzzIGULi  gcb0bfLbVM  jVBkVAbTHj  NHag0dTW3U  R6okint5JZ  VZw2jtUdZD  zxmnKldpmY
+6ZJgIXN3P0  cF1AG2dtLr  gfLQDXjJAW  jVGv0HeZvG  nlgqxKuRC3  R82WkcyQAx  W6AdwbmalK  zzgiKI2xSS
+71qxiSKgAY  cjcKUQDGLl  Gksn5ca8Jn  jvyPQ8Z8ht  NLM96g2hH3  rcEkx0b0WC  WfUKyzFeEv  zZU6ymQky6
+74gKRNrKVf  cKiyNtE0yD  gOWuBZZgn2  JYdPDFpOIe  Nmuh6DvLkc  README.txt  WFyKhZdOcx
+77RwxhcZTx  ClbTpohwVU  GPaN65ikSl  k2yYJNQcLu  nR711EHtmU  rgNTkxVkxN  wgibrPHhJq
+7C4OyiuQc4  cStCLsSELl  gu78Zpnknw  K56S3V4AQ6  nSC9OkT1E3  RnL5L0QLbY  WhTtCYas3M
+7nMGZvigiL  ctnOoPIga1  gu92R3c92I  K9kyHBbw7y  nwt49CVPtC  RPZAvV75tm  wJC19bchr2
+
+
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat README.txt 
+You're seeking a file with a certain size.
+Find the link to get the size.
+
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ find -type l
+./X6lkChFKsj
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cat X6lkChFKsj 
+73 bytes is your target file size
+
+
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ find -size 73c
+./m7lRDpRTUJ/xVMvVOKNW5
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3$ cd m7lRDpRTUJ
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ ls
+
+
+1204O0idSW  74nsBmhMC3  C3ZCLEZzrq  FjhvGNg8Rw  iDt7gCIQOV  M1zxxvd1eC  nNDDzbFDgI  rEbxPsvJxP  svoTVwu3Gh  UiOdxpQLGg  x0tflVoEoO
+1bCCZRGCP3  8VB0glwYod  cmlc365V3X  GAVRSOhw50  IkD0Kc93ts  m8q6s6WOxG  OAHiGcx0jY  rEgcbMGD1X  SXfN5VyJC1  Uw0gGZm5YB  x9CSQNEVjE
+1tLJoXdFEx  9HqP1kDuSl  CZvLOVIhO7  H0As0BrH5Y  IVmfWnZKGu  mn3e6Ukeu5  oLeRCAOaT4  rGhJCRs7FJ  TdfHEaeirn  uXSht4UWOr  xDpUAdVCLC
+2WF03Yxdgm  a6KN771BPV  D5g23jQPVs  HdCe5ZBwRJ  IZKBNTU02o  MOyiOWLVjV  PAyQtx6GB1  RTZ0Q5Fvz7  tIMSWkYsun  vd9wQvpzfs  xKO4p8WwNC
+3YM1EHLZON  AlQLa7wIM8  DbOxzdWwvV  HHJQG3WBVK  J18pIlZSbj  mTwkfDKUxV  PB0DYshX73  rvcjXWFVMX  tiStWqDaVb  VfkLDe3f33  xVMvVOKNW5
+4RHGy6IOSt  ApKtojXYfl  e6Tw4G6vkb  HM1rw0RpJv  j7QpDNmBD7  n0WG0kEz4U  PmB4iJFTFB  saw1DFRZUf  tntCZ8u1xi  vjhekqgloC  ybI2S3pZFm
+5UoS4swAbG  apvmVmfiQP  EAWdAFGbxf  HqTpd7tcQ2  JE6hnwqIgj  N1fQlnGzCp  PMp0lDQTYx  se5SfDz4D8  TomKpe0mD0  vRbJN3oCei  ymqTENE3jY
+60SWKf61He  b4bMOBravk  ECBxKuouhR  hyIwkpJEDN  K8QCoBIctX  N7xJzk6WzX  PWLFYrquMP  SFaRukfNK5  tx4RZgKOLD  WAPVSLBGJp  yUrN6JREYC
+6m74yd7cI9  BdHMXUF3Kz  ETzNsIhFSh  i6u30xsP92  knoHOHY78g  nbkg0Tbooi  QOW3NTbKjY  SIiBVT5XpG  TylxxsM72k  Wkh2swDjL7  ZbG73LAmPB
+71dGwY7RAS  Binpmv9laL  f2eGz5NKur  iCpJ8wBQq2  lvwScjhd7D  nlc56s7edL  RaXvrEJu4H  ssa1bacp3F  uhJnWqqhFH  wTiXKTqwfC  ZPjJENA107
+
+osc@pop-os:~/Desktop/Updated-Task-02/.level-1/level-2/gBT5u0vLT5/level-3/m7lRDpRTUJ$ cat xVMvVOKNW5
+Congrats!! You have finished the Task Successfully, you can rest now :D.
+
+
+Done .
