@@ -1,0 +1,27 @@
+mkdir Mohamed\ Awad
+ls
+cd Mohamed\ Awad/
+mkdir documents
+cd documents
+touch file1.txt file2.txt file3.txt
+ls
+cd ../
+touch .hidden_file
+ls -a
+nano documents/file1.txt
+cat documents/file1.txt
+cd documents/
+mkdir -
+cd ./-
+cd ../
+cp -r documents/ Docs
+ls
+ls -a
+cat .hidden_file
+mv documents/file2.txt .
+mv documents/file3.txt .
+ls -a
+cd ..
+ls
+rm -r Mohamed\ Awad/
+ls
