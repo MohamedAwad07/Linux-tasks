@@ -1,0 +1,64 @@
+Step 1 :
+ls /home
+sudo useradd -m osc
+ls /home/
+sudo passwd osc
+sudo groupadd osc_group
+sudo usermod -aG osc_group osc
+groups osc
+sudo usermod -aG sudo osc
+groups osc
+su osc
+
+Step 2.A :
+cd /home/osc
+ls
+mkdir permission_practice 
+ls
+cd permission_practice 
+ls
+touch public_file.txt
+ls
+ls -l
+chmod a+rw public_file.txt
+ls -l
+
+Step 2.B :
+touch private_file.txt
+ls -l
+chmod u+rw private_file.txt
+ls -l
+chmod go-rw private_file.txt
+ls -l
+
+Step 2.C : 
+touch executable_script.sh
+ls -l
+chmod u+rwx executable_script.sh
+chmod g+rx executable_script.sh
+ls -l
+chmod g-w executable_script.sh
+chmod o-r executable_script.sh
+ls -l
+
+Step 3 :
+sudo chown mo_awad private_file.txt
+ls -l
+sudo chgrp osc_group private_file.txt
+ls -l
+
+
+Step 4 :
+sleep 1000 &
+kill -s KILL 5235
+vim
+killall vim
+jobs
+
+Step 5 :
+
+sudo apt install neofetch
+neofetch
+sudo apt remove neofetch
+
+
