@@ -1,0 +1,56 @@
+step 1)
+mkdir session4
+cd session4/
+touch system_info.sh
+nano system_info.sh
+chmod +x system_info.sh
+./system_info.sh
+
+step 2)
+cd ..
+touch file_check.sh filetest.txt
+ls
+nano file_check.sh 
+nano filetest.txt
+./file_check.sh filetest.txt .
+./file_check.sh file.txt .
+
+step 3)
+ls
+touch rename_files.sh 
+nano rename_files.sh
+touch lion.png tiger.png cat.png dog.png text.txt session.txt 
+ls
+chmod +x rename_files.sh
+./rename_files.sh png image
+ls
+
+step 4)
+ls
+touch calculator.sh
+nano calculator.sh
+chmod +x calculator.sh
+./calculator.sh
+
+1
+10
+5
+
+
+3
+10
+50
+
+
+4
+10
+3
+
+
+4
+10
+5
+
+
+5
+
